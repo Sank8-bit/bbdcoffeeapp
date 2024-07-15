@@ -11,16 +11,29 @@
         <form action="/Home" method="post">
             <div>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name">
+                <label for="last name">Last name:</label>
+                <input type="text" id="last_name">
             </div>
             <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_mail">
+                <label for="default_office">Default office:</label>
+                <select>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="Cape Town">Cape Town</option>
+                    <option value="Johannesburg">Johannesburg</option>
+                    <option value="London">London</option>
+                    <option value="Porto">Porto</option>
+                    <option value="Pretoria">Pretoria</option>
+                    <option value="Pune">Pune</option>
+                </select>
             </div>
             <div>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
+                <label for="employee_number">Employee Number:</label>
+                <input type="number" id="employee_number">
             </div>
+            <button>
+                Sign Up
+            </button>
         </form>
     </body>
 </html>
